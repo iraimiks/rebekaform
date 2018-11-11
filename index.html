@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Skaistumkopšana | Manikīrs | Pedikīrs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/style/main.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logostyle" href="#">REBECCA</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">MANIKĪRS</a></li>
+          <li><a href="#">PEDIKĪRS</a></li>
+          <li><a href="#">DĀVANU KARTES</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid bg-3 text-center">
+    <div class="row">
+      <div class="col-sm-4 tablestyle">
+        <h3>Skaistumkopšana speciālists</h3>
+        <img src="/img/rebeccalogo.png" class="img-circle" alt=logo>
+      </div>
+      <div class="col-sm-4 tablestyle-contacts">
+        <h3>Kontakti: </h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Rebeka Mikijanska.</li>
+          <li class="list-group-item">Tel: 2 8455244;</li>
+          <li class="list-group-item"><button type="button" class="btn btn-danger btn-lg" data-toggle="modal"
+              data-target="#myModal">Pieteikties</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1>Pieteikumu forma</h1>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="usr">Vārds:</label>
+                        <input type="text" class="form-control" id="usr">
+                      </div>
+                      <br>
+                      <div class="form-group">
+                        <label for="tel">Talrunis:</label>
+                        <input type="tel" class="form-control" id="tel">
+                      </div>
+                      <br>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Manikīrs
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">
+                          Pedikīrs
+                        </label>
+                      </div>
+                      <input type="submit" value="Nosūtīt pieteikumu">
+                    </form>
+
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+          </li>
+          <li class="list-group-item">
+            <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal1">Karte</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal1" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                  </div>
+                  <div class="modal-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2199.5426959678375!2d27.717192751367207!3d56.54451563802466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c22543eac23267%3A0x3cdc7da2bf3fc529!2sSkolas+iela+26A%2C+Ludza%2C+Ludzas+pils%C4%93ta%2C+LV-5701!5e0!3m2!1slv!2slv!4v1541933042791"
+                      width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="container-fluid bg-3 text-center">
+    <div class="row">
+      <div class="col-sm-4 tablestyle">
+        <button data-toggle="collapse" type="button" class="btn btn-danger btn-lg" data-target="#demo">Manikīrs</button>
+        <div id="demo" class="collapse">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Pakalpojums</th>
+                <th scope="col">Cena</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Klasiskais manikīrs</td>
+                <td>5 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Klasiskais manikīrs ar laku</td>
+                <td>7 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Manikīrs ar gēllakas pārklājumu</td>
+                <td>10 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Manikīrs ar gēllakas pārklājumu(franču)</td>
+                <td>13 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Gēllakas noņemšana</td>
+                <td>3 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Gēla nagi ar gēllaku (vienā tonī)</td>
+                <td>20 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Gēla nagi Franch (bez kamuflāžas)</td>
+                <td>22 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Gēla nagu ātrā profilakse (pēc 2-3 nedēļām)</td>
+                <td>15 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Gēla nagi Franch (ar kamuflāžu)</td>
+                <td>25 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Gēla nagu noņemšana ar manikīru</td>
+                <td>12 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Nagu dizains</td>
+                <td>1-3 euro</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-sm-4 tablestyle">
+        <button data-toggle="collapse" type="button" class="btn btn-danger btn-lg" data-target="#demo1">Pedikīrs</button>
+        <div id="demo1" class="collapse">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Pakalpojums</th>
+                <th scope="col">Cena</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Klasiskais pedikīrs</td>
+                <td>15 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Aparāta pedikīrs</td>
+                <td>17 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Gēllakas pārklājums bez pedikīra</td>
+                <td>10 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Pedikīrs ar gēllakas pārklājumu</td>
+                <td>14 euro</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>SPA pedikīrs</td>
+                <td>24 euro</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <h2>Dāvanu kartes</h2>
+        <br>
+        <p>
+          Dāvanu kartes iegāde ir laba iespēja iepriecināt savus draugus!
+          Iegādāties dāvanu karti ir iespējams uz vietas.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-3 text-center">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>Manikīrs</h2>
+        <img src="/img/manicure_img.jpg" class="img-circle" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-4">
+        <h2>Pedikīrs</h2>
+        <img src="/img/pedicure_img.jpg" class="img-circle" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-4">
+        <h2>Dāvanu kartes</h2>
+        <img src="/img/images.jpg" class="img-circle" style="width:100%" alt="Image">
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid bg-4 text-center">
+    <p>Bootstrap Theme Edit by R.Bortascenoks</a></p>
+  </footer>
+</body>
+
+</html>
