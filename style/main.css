@@ -1,13 +1,11 @@
 .bg-1 { 
-    background-color: #f7f7f7; /* Green */
-    color: #000000;   
+    background-color: #ff00bf6b; 
  }
  .bg-2 { 
-    background-color: #62b2ca71; /* Green */
-    color: #000000;
+    background-color: #62b2ca71; 
  }
  .bg-3 { 
-    background-color: #f1010117; /* Green */
+    background-color: #f1010117; 
     color: #000000;   
  }
  .container-fluid {
@@ -50,5 +48,11 @@
 }
 .designmodal{
     width: 350px;
+}
+.tablestyleBtn{
+    margin-bottom: 20px; 
+}
+.textstyle{
+    font-size: 25px;
 }
 /* table */
