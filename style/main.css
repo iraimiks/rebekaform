@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
 body{
     background-color: #f2f3f7; 
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .bg-1 { 
     background-color: #0000006b; 
@@ -9,9 +11,12 @@ body{
     background-color: #62b2ca71; 
  }
  .bg-3 { 
-    background-color: #e9d2d5; 
+    background-color: #ffbbe9; 
     color: #000000;  
     
+ }
+ .imgheight{
+     height: 200px;
  }
  .bg-5{
     background-color: #e9d2d5; 
