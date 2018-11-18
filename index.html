@@ -12,130 +12,114 @@
 </head>
 
 <body>
-  <!-- <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand logostyle" href="#">REBECCA</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#mani">MANIKĪRS</a></li>
-          <li><a href="#mani">PEDIKĪRS</a></li>
-          <li><a href="#mani">DĀVANU KARTES</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
   <div class="container-fluid tablestyle bg-4 text-center">
-    <div class="row">
-      <div class="col-sm-4 logodiv_style">
-        <img src="img/logo.png" alt=logo width="300px">
+    <div class="container tablestyle text-center">
+      <img src="img/logorebeka13.png" alt=logo width="300px">
+    </div>
+    <div class="container tablestyle">
+      <h2>Justified Button Groups</h2>
+      <p>To span the entire width of the screen, use the .btn-group-justified class:</p>
+      <div class="btn-group btn-group-justified">
+        <a href="#" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal0">Kontakti</a>
+        <a href="#" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Pieraksts</a>
+        <a href="#" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal1">Karte</a>
       </div>
-      <div class="col-sm-4 tablestyle-contacts">
-        <h3>Skaistumkopšanas speciālists </h3>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item textstyle">Rebeka Mikijanska.</li>
-          <li class="list-group-item textstyle"><a href="+37128455244">Tel: 2 8455244</a></li>
-          <li class="list-group-item textstyle"><button type="button" class="btn btn-default btn-lg btn-block"
-              data-toggle="modal" data-target="#myModal">Pieteikties</button>
+    </div>
+  </div>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
 
-            <!-- Modal -->
-
-            <div class="modal fade" id="myModal" role="dialog">
-              <div class="modal-dialog" >
-
-                <!-- Modal content-->
-                <div class="modal-content" >
-                  <div class="modal-header">
-                    <h1>Pieteikumu forma</h1>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  </div>
-                  <div class="modal-body">
-                    <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyxF1zYY7hgdRAmetNDWZeFKrmpOOxQdG2cHva4/exec">
-                      <div class="form-group">
-                        <label for="usr">Vārds:</label>
-                        <input type="text" class="form-control" id="usr" name="name" placeholder="Vārds" required>
-                      </div>
-                      <br>
-                      <div class="form-group">
-                        <label for="tel">Talrunis:</label>
-                        <input type="tel" class="form-control" id="tel" name="tel">
-                      </div>
-                      <br>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="manik">
-                        <label class="form-check-label" for="defaultCheck1">
-                          Manikīrs
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" name="pedik">
-                        <label class="form-check-label" for="defaultCheck2">
-                          Pedikīrs
-                        </label>
-                      </div>
-                      <div style="display: none" class="thankyou_message" data-dismiss="modal">
-                        <h2><em>Paldies!</em>Ar jums sazināsies tuvākajā laikā!</h2>
-                      </div>
-                      <input type="submit" id="closemodal"value="Nosūtīt pieteikumu">
-                      <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
-                      <script>
-                        $('#closemodal').click(function () {
-                          $('#myModal').modal('hide');
-                        });
-                      </script>
-                    </form>
-
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-          </li>
-          <li class="list-group-item">
-            <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#myModal1">Karte</button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="myModal1" role="dialog">
-              <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content designmodal">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-
-                  </div>
-                  <div class="modal-body">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2199.5426959678375!2d27.717192751367207!3d56.54451563802466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c22543eac23267%3A0x3cdc7da2bf3fc529!2sSkolas+iela+26A%2C+Ludza%2C+Ludzas+pils%C4%93ta%2C+LV-5701!5e0!3m2!1slv!2slv!4v1541933042791"
-                      width="300" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-
-              </div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>Pieteikumu forma</h1>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyxF1zYY7hgdRAmetNDWZeFKrmpOOxQdG2cHva4/exec">
+            <div class="form-group">
+              <label for="usr">Vārds:</label>
+              <input type="text" class="form-control" id="usr" name="name" placeholder="Vārds" required>
             </div>
-          </li>
-        </ul>
+            <br>
+            <div class="form-group">
+              <label for="tel">Talrunis:</label>
+              <input type="tel" class="form-control" id="tel" name="tel">
+            </div>
+            <br>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="manik">
+              <label class="form-check-label" for="defaultCheck1">
+                Manikīrs
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" name="pedik">
+              <label class="form-check-label" for="defaultCheck2">
+                Pedikīrs
+              </label>
+            </div>
+            <div style="display: none" class="thankyou_message" data-dismiss="modal">
+              <h2><em>Paldies!</em>Ar jums sazināsies tuvākajā laikā!</h2>
+            </div>
+            <input type="submit" id="closemodal" value="Nosūtīt pieteikumu">
+            <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+            <script>
+              $('#closemodal').click(function () {
+                $('#myModal').modal('hide');
+              });
+            </script>
+          </form>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
 
       </div>
     </div>
+  </div>
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content designmodal">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2199.5426959678375!2d27.717192751367207!3d56.54451563802466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c22543eac23267%3A0x3cdc7da2bf3fc529!2sSkolas+iela+26A%2C+Ludza%2C+Ludzas+pils%C4%93ta%2C+LV-5701!5e0!3m2!1slv!2slv!4v1541933042791"
+            width="300" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModal0" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content designmodal">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-5 textstyle">Rebeka Mikijanska.</li>
+            <li class="list-group-item textstyle"><a href="+37128455244">Tel: 2 8455244</a></li>
+          </ul>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
 
   </div>
-  <div class="container-fluid  tablestyle bg-3 text-center">
+  <div class="container-fluid  bg-3 text-center">
 
     <div class="col-sm-4 tablestyle well well-lg">
       <div class="col-sm-12">
         <button data-toggle="collapse" type="button" id="mani" class="btn btn-default btn-lg btn-block" data-target="#demo">Manikīrs</button>
       </div>
-      <img src="img/nailsmani.jpg" class="img-thumbnail" width="350px" height="100%" alt="Cinque Terre"> 
       <div id="demo" class="collapse">
         <table class="table">
           <thead>
@@ -204,12 +188,12 @@
           </tbody>
         </table>
       </div>
+      <img src="img/nailsmani.jpg" class="img-thumbnail" width="350px" height="100%" alt="Cinque Terre">
     </div>
     <div class="col-sm-4 tablestyle well well-lg">
       <div class="col-sm-12">
         <button data-toggle="collapse" type="button" id="mani" class="btn btn-default btn-lg btn-block" data-target="#demo1">Pedikīrs</button>
       </div>
-      <img src="img/pedikur_img.jpg" class="img-thumbnail" width="350px" height="100%" alt="Cinque Terre"> 
       <div id="demo1" class="collapse">
         <table class="table">
           <thead>
@@ -248,12 +232,12 @@
           </tbody>
         </table>
       </div>
+      <img src="img/pedikur_img.jpg" class="img-thumbnail" width="350px" height="100%" alt="Cinque Terre">
     </div>
     <div class="col-sm-4 tablestyle well well-lg">
       <div class="col-sm-12">
         <button data-toggle="collapse" type="button" id="mani" class="btn btn-default btn-lg btn-block" data-target="#demo2">Makeup</button>
       </div>
-      <img src="img/make_up.jpg" class="img-thumbnail" width="350px" height="100%" alt="Cinque Terre"> 
       <div id="demo2" class="collapse">
         <table class="table">
           <thead>
@@ -292,8 +276,8 @@
           </tbody>
         </table>
       </div>
+      <img src="img/make_up.jpg" class="img-thumbnail" width="350px" height="100%" alt="Cinque Terre">
     </div>
-
   </div>
   <div class="container-fluid bg-3 text-center">
     <div class="col-sm-4  well well-lg">
@@ -301,7 +285,6 @@
         <button data-toggle="collapse" type="button" id="mani" class="btn btn-default btn-lg btn-block" data-target="#demo3">Uzacu
           korekcija</button>
       </div>
-      <img src="img/eyebrowshaping.jpg" class="img-thumbnail" width="350px" height="100%" alt="Cinque Terre"> 
       <div id="demo3" class="collapse">
         <table class="table">
           <thead>
@@ -340,18 +323,65 @@
           </tbody>
         </table>
       </div>
+      <img src="img/eyebrowshaping.jpg" class="img-thumbnail" width="350px" height="100%" alt="Cinque Terre">
     </div>
+        <div class="col-sm-4  well well-lg">
+          <div class="col-sm-12">
+            <button data-toggle="collapse" type="button" id="mani" class="btn btn-default btn-lg btn-block" data-target="#demo4">Vaksācija</button>
+          </div>
+          <div id="demo4" class="collapse">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Pakalpojums</th>
+                  <th scope="col">Cena</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Klasiskais pedikīrs</td>
+                  <td>15 euro</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Aparāta pedikīrs</td>
+                  <td>17 euro</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Gēllakas pārklājums bez pedikīra</td>
+                  <td>10 euro</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Pedikīrs ar gēllakas pārklājumu</td>
+                  <td>14 euro</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>SPA pedikīrs</td>
+                  <td>24 euro</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <img src="img/eyebrowshaping.jpg" class="img-thumbnail" width="350px" height="100%" alt="Cinque Terre">
+        </div>
+    
     <div class="col-sm-4 well well-lg">
       <div class="col-sm-12">
         <button data-toggle="collapse" type="button" id="mani" class="btn btn-default btn-lg btn-block" data-target="#demo4">Dāvanu
           kartes</button>
       </div>
-      <img src="img/giftcard.jpg" class="img-thumbnail" width="350px" height="100%" alt="Cinque Terre"> 
       <br>
       <p id="demo4" class="collapse">
         Dāvanu kartes iegāde ir laba iespēja iepriecināt savus draugus!
         Iegādāties dāvanu karti ir iespējams uz vietas.
       </p>
+      <img src="img/giftcard.jpg" class="img-thumbnail" width="350px" height="50%" alt="Cinque Terre">
+
     </div>
   </div>
 

@@ -9,13 +9,16 @@ body{
     background-color: #62b2ca71; 
  }
  .bg-3 { 
-    background-color: #f2f3f7; 
+    background-color: #e9d2d5; 
     color: #000000;  
     
  }
+ .bg-5{
+    background-color: #e9d2d5; 
+ }
 .bg-4 {
     /* The image used */
-    background-image: url("../img/bgimage1.jpg");
+    background-image: url("../img/audrey-fretz-451115-unsplash.jpg");
     width: 100%;
     /* Center and scale the image nicely */
     background-position: center;
