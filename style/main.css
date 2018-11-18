@@ -1,16 +1,28 @@
 .bg-1 { 
     background-color: #0000006b; 
  }
+
  .bg-2 { 
     background-color: #62b2ca71; 
  }
  .bg-3 { 
-    background-color: #3f343438; 
-    color: #000000;   
+    background-color: #ffffff; 
+    color: #000000;  
+    
  }
+.bg-4 {
+    /* The image used */
+    background-image: url("/img/bgimage1.jpg");
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
  .container-fluid {
     padding-top: 30px;
     padding-bottom: 50px;
+    
 }
 .navbar {
     padding-top: 15px;
@@ -33,9 +45,15 @@
     text-transform: none;  
 }
 .tablestyle{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 3px 3px 3px 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
+}
+
+.logodiv_style{
+    margin-top: 140px;
+    margin-bottom: 30px;
 }
 .tablestyle-contacts{
     margin-top: 30px;
