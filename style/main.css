@@ -1,3 +1,6 @@
+body{
+    background-color: #f2f3f7; 
+}
 .bg-1 { 
     background-color: #0000006b; 
  }
@@ -6,7 +9,7 @@
     background-color: #62b2ca71; 
  }
  .bg-3 { 
-    background-color: #ffffff; 
+    background-color: #f2f3f7; 
     color: #000000;  
     
  }
